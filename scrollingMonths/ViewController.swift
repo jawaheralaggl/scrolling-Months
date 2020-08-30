@@ -139,13 +139,16 @@ extension ViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("You selected cell #\(indexPath.item)")
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        
+        // Increase font size
         let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
-        cell?.textLabel.font = cell?.textLabel.font.withSize(30)
+        cell?.textLabel.font = UIFont.boldSystemFont(ofSize: 30.0)
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        // Normal font size
         let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
-        cell?.textLabel.font = cell?.textLabel.font.withSize(20)
+        cell?.textLabel.font = UIFont.systemFont(ofSize: 20.0)
     }
 }
 

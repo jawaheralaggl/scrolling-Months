@@ -22,7 +22,7 @@ class CollectionViewCell: UICollectionViewCell {
     public func configure(with text: String ) {
         textLabel.text = text
         textLabel.textColor = .white
-        textLabel.font = textLabel.font.withSize(20)
+        textLabel.font = UIFont.systemFont(ofSize: 20.0)
         
     }
     
