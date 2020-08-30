@@ -13,6 +13,9 @@
 		A52E5BEC24FBFAAE004DCCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52E5BEA24FBFAAE004DCCA2 /* Main.storyboard */; };
 		A52E5BEE24FBFAB8004DCCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52E5BED24FBFAB8004DCCA2 /* Assets.xcassets */; };
 		A52E5BF124FBFAB8004DCCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52E5BEF24FBFAB8004DCCA2 /* LaunchScreen.storyboard */; };
+		A52E5BFA24FBFAF7004DCCA2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E5BF824FBFAF6004DCCA2 /* CollectionViewCell.swift */; };
+		A52E5BFB24FBFAF7004DCCA2 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52E5BF924FBFAF7004DCCA2 /* CollectionViewCell.xib */; };
+		A52E5BFD24FBFB79004DCCA2 /* hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E5BFC24FBFB79004DCCA2 /* hexColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A52E5BED24FBFAB8004DCCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52E5BF024FBFAB8004DCCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52E5BF224FBFAB8004DCCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52E5BF824FBFAF6004DCCA2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A52E5BF924FBFAF7004DCCA2 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		A52E5BFC24FBFB79004DCCA2 /* hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				A52E5BE424FBFAAE004DCCA2 /* AppDelegate.swift */,
 				A52E5BE624FBFAAE004DCCA2 /* SceneDelegate.swift */,
 				A52E5BE824FBFAAE004DCCA2 /* ViewController.swift */,
+				A52E5BFC24FBFB79004DCCA2 /* hexColor.swift */,
+				A52E5BF824FBFAF6004DCCA2 /* CollectionViewCell.swift */,
+				A52E5BF924FBFAF7004DCCA2 /* CollectionViewCell.xib */,
 				A52E5BEA24FBFAAE004DCCA2 /* Main.storyboard */,
 				A52E5BED24FBFAB8004DCCA2 /* Assets.xcassets */,
 				A52E5BEF24FBFAB8004DCCA2 /* LaunchScreen.storyboard */,
@@ -127,6 +136,7 @@
 			files = (
 				A52E5BF124FBFAB8004DCCA2 /* LaunchScreen.storyboard in Resources */,
 				A52E5BEE24FBFAB8004DCCA2 /* Assets.xcassets in Resources */,
+				A52E5BFB24FBFAF7004DCCA2 /* CollectionViewCell.xib in Resources */,
 				A52E5BEC24FBFAAE004DCCA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +150,8 @@
 			files = (
 				A52E5BE924FBFAAE004DCCA2 /* ViewController.swift in Sources */,
 				A52E5BE524FBFAAE004DCCA2 /* AppDelegate.swift in Sources */,
+				A52E5BFD24FBFB79004DCCA2 /* hexColor.swift in Sources */,
+				A52E5BFA24FBFAF7004DCCA2 /* CollectionViewCell.swift in Sources */,
 				A52E5BE724FBFAAE004DCCA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
